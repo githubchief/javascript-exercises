@@ -9,11 +9,6 @@ const leapYears = function(year) {
             }
             else return false;
         }
-
-    if(year%4 == 0) {
-          return leapYear;
-    } 
-    return false;
 };
 
 // Do not edit below this line
